@@ -1,0 +1,326 @@
+0000.000 (0) Opened log file at time: Wed, 03 Apr 2024 19:19:11 +0000 on http://localhost/wpdistrib1
+0000.040 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.2 WP: 6.4.3 PHP: 8.2.12 (apache2handler, Windows NT RYZEN5 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 60.5M | 62M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.078 (0) Free space on disk containing Updraft's temporary directory: 419120.1 MB
+0000.119 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB: 1 (schedule: weekly)
+0000.203 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.269 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2024-04-03 19:19:12
+0000.298 (0) Semaphore (fd, wp_options) reset to 1
+0000.347 (0) Set semaphore last lock (fd) time to 2024-04-03 19:19:12
+0000.385 (0) Semaphore lock (fd) complete
+0000.539 (0) Backup run: resumption=0, nonce=7bad15f15d61, file_nonce=7bad15f15d61 begun at=1712171951 (1s ago), job type=backup
+0000.616 (0) Scheduling a resumption (1) after 300 seconds (1712172252) in case this run gets aborted
+0000.713 (0) Checking if we have a zip executable available
+0000.792 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.831 (0) Creation of backups of directories: beginning
+0000.935 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0002.599 (0) Total entities for the zip file: 1140 directories, 6571 files (0 skipped as non-modified), 70 MB
+0002.669 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.721 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.783 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.844 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.905 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.965 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0003.063 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0003.109 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 2.0 seconds have passed since the last write (6.4 MB, 701 (701) files added so far); re-opening (prior size: 0 KB)
+0007.645 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 800 files added (on-disk size: 3015.6 KB)
+0007.723 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 900 files added (on-disk size: 3015.6 KB)
+0007.765 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 1000 files added (on-disk size: 3015.6 KB)
+0007.831 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 1100 files added (on-disk size: 3015.6 KB)
+0007.886 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 1200 files added (on-disk size: 3015.6 KB)
+0007.951 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 1300 files added (on-disk size: 3015.6 KB)
+0008.007 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 1400 files added (on-disk size: 3015.6 KB)
+0008.056 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 1500 files added (on-disk size: 3015.6 KB)
+0008.118 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 1600 files added (on-disk size: 3015.6 KB)
+0008.232 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 1700 files added (on-disk size: 3015.6 KB)
+0008.392 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 1000 files added on this batch (7.5 MB, 6571 files batched, 1001 (1702) added so far); re-opening (prior size: 3015.6 KB)
+0011.856 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 1800 files added (on-disk size: 6985.3 KB)
+0011.916 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 1900 files added (on-disk size: 6985.3 KB)
+0011.976 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 2000 files added (on-disk size: 6985.3 KB)
+0012.039 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 2100 files added (on-disk size: 6985.3 KB)
+0012.098 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 2200 files added (on-disk size: 6985.3 KB)
+0012.148 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 2300 files added (on-disk size: 6985.3 KB)
+0012.207 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 2400 files added (on-disk size: 6985.3 KB)
+0012.258 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 2500 files added (on-disk size: 6985.3 KB)
+0012.308 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 2600 files added (on-disk size: 6985.3 KB)
+0012.390 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 2700 files added (on-disk size: 6985.3 KB)
+0012.425 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 1000 files added on this batch (8.9 MB, 6571 files batched, 1001 (2703) added so far); re-opening (prior size: 6985.3 KB)
+0020.703 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 2800 files added (on-disk size: 10134.9 KB)
+0020.762 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 2900 files added (on-disk size: 10134.9 KB)
+0020.823 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 3000 files added (on-disk size: 10134.9 KB)
+0020.967 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 3100 files added (on-disk size: 10134.9 KB)
+0021.060 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 3200 files added (on-disk size: 10134.9 KB)
+0021.109 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 3300 files added (on-disk size: 10134.9 KB)
+0021.170 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 3400 files added (on-disk size: 10134.9 KB)
+0021.280 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 3500 files added (on-disk size: 10134.9 KB)
+0021.340 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 3600 files added (on-disk size: 10134.9 KB)
+0021.413 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 3700 files added (on-disk size: 10134.9 KB)
+0021.447 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 1000 files added on this batch (13.8 MB, 6571 files batched, 1001 (3704) added so far); re-opening (prior size: 10134.9 KB)
+0031.192 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 3800 files added (on-disk size: 15017.1 KB)
+0031.317 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 3900 files added (on-disk size: 15017.1 KB)
+0031.883 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 4000 files added (on-disk size: 15017.1 KB)
+0031.959 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 4100 files added (on-disk size: 15017.1 KB)
+0032.041 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 4200 files added (on-disk size: 15017.1 KB)
+0032.094 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 4300 files added (on-disk size: 15017.1 KB)
+0032.159 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 4400 files added (on-disk size: 15017.1 KB)
+0032.232 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 4500 files added (on-disk size: 15017.1 KB)
+0032.405 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 4600 files added (on-disk size: 15017.1 KB)
+0032.606 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 4700 files added (on-disk size: 15017.1 KB)
+0032.748 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 1000 files added on this batch (20.3 MB, 6571 files batched, 1001 (4705) added so far); re-opening (prior size: 15017.1 KB)
+0050.822 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 4800 files added (on-disk size: 20811.5 KB)
+0050.882 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 4900 files added (on-disk size: 20811.5 KB)
+0050.931 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 5000 files added (on-disk size: 20811.5 KB)
+0050.992 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 5100 files added (on-disk size: 20811.5 KB)
+0051.052 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 5200 files added (on-disk size: 20811.5 KB)
+0051.113 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 5300 files added (on-disk size: 20811.5 KB)
+0051.174 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 5400 files added (on-disk size: 20811.5 KB)
+0051.395 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 5500 files added (on-disk size: 20811.5 KB)
+0051.577 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 5600 files added (on-disk size: 20811.5 KB)
+0052.139 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.tmp: 5700 files added (on-disk size: 20811.5 KB)
+0052.186 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 1000 files added on this batch (5.6 MB, 6571 files batched, 1001 (5706) added so far); re-opening (prior size: 20811.5 KB)
+0065.796 (0) Zip size is at/near split limit (25.1 MB / 25 MB) - bumping index (from: 0)
+0066.171 (0) Creating zip file manifest (backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.list-temp.tmp)
+0066.272 (0) Successfully created zip file manifest (size: 454045)
+0066.943 (0) Created plugins zip (0) - 25654.3 KB in 64.9 s (395.5 KB/s) (checksums: sha1: 8a9d5423682d940020b64a009eca847731072652, sha256: a67a4c4c60e829b8a7487fc0f62f54359c41960e1bc7ec63dc6aaa28be986ded)
+0069.069 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0069.130 (0) No remote despatch: user chose no remote backup service
+0069.179 (0) Recording as successfully uploaded: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip
+0069.256 (0) Deleting zip manifest (backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip.list.tmp)
+0069.296 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0069.375 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 2.0 seconds have passed since the last write (0 MB, 1 (5707) files added so far); re-opening (prior size: 0 KB)
+0069.484 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins2.zip.tmp: 5800 files added (on-disk size: 0.3 KB)
+0069.546 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins2.zip.tmp: 5900 files added (on-disk size: 0.3 KB)
+0069.607 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins2.zip.tmp: 6000 files added (on-disk size: 0.3 KB)
+0069.669 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins2.zip.tmp: 6100 files added (on-disk size: 0.3 KB)
+0069.785 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins2.zip.tmp: 6200 files added (on-disk size: 0.3 KB)
+0069.955 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins2.zip.tmp: 6300 files added (on-disk size: 0.3 KB)
+0070.009 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins2.zip.tmp: 6400 files added (on-disk size: 0.3 KB)
+0070.086 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins2.zip.tmp: 6500 files added (on-disk size: 0.3 KB)
+0071.504 (0) Creating zip file manifest (backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins2.zip.list-temp.tmp)
+0071.582 (0) Successfully created zip file manifest (size: 73957)
+0071.754 (0) Created plugins zip (1) - 2299.4 KB in 3.4 s (682.4 KB/s) (sha1: 6db91520fc3d3d770bd54cf73f40a1fa0bbfa264, sha256: 9d4e866f6ae9528a0ac42310d74226231220bfe97934602518a6473a9f0476be)
+0071.782 (0) Deleting old temporary file: log.4e156550157c-browser.txt
+0071.908 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0071.947 (0) No remote despatch: user chose no remote backup service
+0071.975 (0) Recording as successfully uploaded: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins2.zip
+0072.167 (0) Deleting zip manifest (backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins2.zip.list.tmp)
+0072.278 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0072.420 (0) Beginning creation of dump of themes (split every: 25 MB)
+0072.546 (0) Total entities for the zip file: 14 directories, 107 files (0 skipped as non-modified), 3.2 MB
+0072.612 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 3275.1 KB, split: 25600 KB)
+0072.690 (0) Zip: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0073.006 (0) Creating zip file manifest (backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-themes.zip.list-temp.tmp)
+0073.043 (0) Successfully created zip file manifest (size: 7271)
+0074.224 (0) Created themes zip (0) - 3097.9 KB in 1.6 s (1933 KB/s) (sha1: 666ee1a0592b977415514e3ef5ea69244706e802, sha256: dd41b2c4b9b60ef5f3dd5fd5cc52a5c7192be2c1f52b7cf410d608440c9db6d4)
+0074.351 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0074.411 (0) No remote despatch: user chose no remote backup service
+0074.449 (0) Recording as successfully uploaded: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-themes.zip
+0074.527 (0) Deleting zip manifest (backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-themes.zip.list.tmp)
+0074.588 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0074.703 (0) Exclusion option setting (uploads): 
+0074.775 (0) Looking for candidates to backup in: D:\Pro\AAA-PortableApps\WPDISTRIB_PORTABLE\WPP\WPDISTRIB_PORTABLE_6.5\PortableApps\XAMPP\App\XAMPP\htdocs\wpdistrib1/wp-content/uploads
+0074.813 (0) finding files: .htaccess: adding to list (1)
+0074.852 (0) finding files: 2024: adding to list (2)
+0074.890 (0) finding files: code-profiler: adding to list (3)
+0074.929 (0) finding files: rank-math: adding to list (4)
+0074.967 (0) finding files: wpo: adding to list (5)
+0075.110 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0075.220 (0) Total entities for the zip file: 9 directories, 37 files (0 skipped as non-modified), 0.8 MB
+0075.336 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 769.4 KB, split: 25600 KB)
+0075.591 (0) Creating zip file manifest (backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-uploads.zip.list-temp.tmp)
+0075.628 (0) Successfully created zip file manifest (size: 2823)
+0075.792 (0) Created uploads zip (0) - 750.9 KB in 0.6 s (1289.4 KB/s) (sha1: 36237bea28a1b8ded381112104f005028646076c, sha256: 8c840bbf09f73c33cd05ccab470ad16edac5199651b3db00f3c3107b07dda3d4)
+0075.919 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0075.946 (0) No remote despatch: user chose no remote backup service
+0075.996 (0) Recording as successfully uploaded: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-uploads.zip
+0076.156 (0) Deleting zip manifest (backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-uploads.zip.list.tmp)
+0076.255 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0076.469 (0) Beginning creation of dump of mu-plugins (split every: 25 MB)
+0076.575 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0076.645 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 1.3 KB, split: 25600 KB)
+0076.724 (0) Creating zip file manifest (backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-mu-plugins.zip.list-temp.tmp)
+0076.751 (0) Successfully created zip file manifest (size: 70)
+0076.882 (0) Created mu-plugins zip (0) - 0.7 KB in 0.3 s (2.3 KB/s) (sha1: b751ba4b929c24b5b243ce4df7778c23d6ebf10f, sha256: 1099ef8b2c6dd0d06e2fea4e22d256f02378ef1d511355891df13b4bda160a79)
+0076.987 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0077.014 (0) No remote despatch: user chose no remote backup service
+0077.042 (0) Recording as successfully uploaded: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-mu-plugins.zip
+0077.108 (0) Deleting zip manifest (backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-mu-plugins.zip.list.tmp)
+0077.207 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0077.405 (0) Beginning backup of other directories found in the content directory (index: 0)
+0077.531 (0) Exclusion option setting (others): 
+0077.592 (0) Looking for candidates to backup in: D:\Pro\AAA-PortableApps\WPDISTRIB_PORTABLE\WPP\WPDISTRIB_PORTABLE_6.5\PortableApps\XAMPP\App\XAMPP\htdocs\wpdistrib1/wp-content
+0077.630 (0) finding files: db.php: adding to list (1)
+0077.658 (0) finding files: index.php: adding to list (2)
+0077.697 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0077.724 (0) finding files: plugins: skipping: this is the plugins directory
+0077.762 (0) finding files: plugins1: adding to list (3)
+0077.790 (0) finding files: themes: skipping: this is the themes directory
+0077.828 (0) finding files: updraft: skipping: this is the updraft directory
+0077.856 (0) finding files: upgrade: adding to list (4)
+0077.895 (0) finding files: upgrade-temp-backup: adding to list (5)
+0077.923 (0) finding files: uploads: skipping: this is the uploads directory
+0078.052 (0) Total entities for the zip file: 7 directories, 2 files (0 skipped as non-modified), 0 MB
+0078.076 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 2.3 KB, split: 25600 KB)
+0078.166 (0) Creating zip file manifest (backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-others.zip.list-temp.tmp)
+0078.205 (0) Successfully created zip file manifest (size: 59)
+0078.687 (0) Created others zip (0) - 2 KB in 0.4 s (5.5 KB/s) (sha1: 89c7245707e85554984f48550cc8a6c1f24b379b, sha256: 9ad7417a69bcceb18e694b4662008aaf7c8279f76214b2a8afa2e99eafcb3452)
+0079.424 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0079.452 (0) No remote despatch: user chose no remote backup service
+0079.491 (0) Recording as successfully uploaded: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-others.zip
+0079.557 (0) Deleting zip manifest (backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-others.zip.list.tmp)
+0079.584 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0079.754 (0) Saving backup status to database (elements: 11)
+0079.820 (0) Beginning creation of database dump (WordPress DB)
+0079.849 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0080.074 (0) Table wp_options: Total expected rows (via COUNT): 457
+0080.102 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0080.182 (0) Table wp_options: Rows added in this batch (next record: 5095): 452 (uncompressed bytes in this segment=354342) in 0.19 seconds
+0080.322 (0) Table wp_options: finishing file(s) (2, 51.5 KB)
+0080.603 (0) Table wp_users: Total expected rows (via COUNT): 3
+0080.956 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0081.066 (0) Table wp_users: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1479) in 0.53 seconds
+0081.181 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0081.318 (0) Table wp_usermeta: Total expected rows (via COUNT): 102
+0081.345 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0081.413 (0) Table wp_usermeta: Rows added in this batch (next record: 149): 102 (uncompressed bytes in this segment=12315) in 0.17 seconds
+0081.660 (0) Table wp_usermeta: finishing file(s) (2, 3.5 KB)
+0081.884 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 0
+0082.068 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1550) in 0.25 seconds
+0082.221 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.6 KB)
+0082.292 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0082.326 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.05 seconds
+0082.419 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0082.715 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 1
+0082.914 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.597 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=658) in 1.08 seconds
+0083.928 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0084.013 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 0
+0084.079 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.08 seconds
+0084.186 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.4 KB)
+0084.344 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0084.411 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.14 seconds
+0084.615 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0084.948 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0084.994 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0085.091 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1887) in 0.26 seconds
+0085.215 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0085.402 (0) Table wp_links: Total expected rows (via COUNT): 0
+0085.491 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1025) in 0.19 seconds
+0085.667 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0086.024 (0) Table wp_postmeta: Total expected rows (via COUNT): 40
+0086.057 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0086.125 (0) Table wp_postmeta: Rows added in this batch (next record: 92): 40 (uncompressed bytes in this segment=8988) in 0.27 seconds
+0086.327 (0) Table wp_postmeta: finishing file(s) (2, 1.8 KB)
+0087.230 (0) Table wp_posts: Total expected rows (via COUNT): 16
+0087.456 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.628 (0) Table wp_posts: Rows added in this batch (next record: 46): 16 (uncompressed bytes in this segment=23203) in 0.97 seconds
+0087.759 (0) Table wp_posts: finishing file(s) (2, 6 KB)
+0087.829 (0) Table wp_term_relationships: Total expected rows (approximate): 8
+0087.918 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 8 (uncompressed bytes in this segment=786) in 0.09 seconds
+0088.034 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0088.176 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0088.209 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0088.277 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=977) in 0.18 seconds
+0088.783 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0089.008 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0089.097 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.15 seconds
+0089.274 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0089.531 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0089.570 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0089.681 (0) Table wp_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=779) in 0.18 seconds
+0090.067 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0090.801 (0) Table wp_eum_logs: Total expected rows (via COUNT): 0
+0090.887 (0) Table wp_eum_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=768) in 0.11 seconds
+0091.064 (0) Table wp_eum_logs: finishing file(s) (2, 0.4 KB)
+0091.179 (0) Table wp_rank_math_404_logs: Total expected rows (via COUNT): 0
+0091.217 (0) Table wp_rank_math_404_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.07 seconds
+0091.349 (0) Table wp_rank_math_404_logs: finishing file(s) (2, 0.4 KB)
+0091.454 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 1
+0091.502 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.621 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: 10): 1 (uncompressed bytes in this segment=826) in 0.18 seconds
+0092.003 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 0.4 KB)
+0092.183 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 4
+0092.217 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0092.262 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 18): 4 (uncompressed bytes in this segment=756) in 0.10 seconds
+0092.406 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.4 KB)
+0092.515 (0) Table wp_rank_math_redirections: Total expected rows (via COUNT): 0
+0092.604 (0) Table wp_rank_math_redirections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=943) in 0.11 seconds
+0092.736 (0) Table wp_rank_math_redirections: finishing file(s) (2, 0.5 KB)
+0092.906 (0) Table wp_rank_math_redirections_cache: Total expected rows (via COUNT): 0
+0092.945 (0) Table wp_rank_math_redirections_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.12 seconds
+0093.199 (0) Table wp_rank_math_redirections_cache: finishing file(s) (2, 0.4 KB)
+0094.454 (0) Table wp_tm_taskmeta: Total expected rows (via COUNT): 0
+0094.608 (0) Table wp_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.58 seconds
+0094.763 (0) Table wp_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+0094.863 (0) Table wp_tm_tasks: Total expected rows (via COUNT): 0
+0094.977 (0) Table wp_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=750) in 0.15 seconds
+0095.110 (0) Table wp_tm_tasks: finishing file(s) (2, 0.4 KB)
+0095.214 (0) PHP event: code E_WARNING: filemtime(): stat failed for D:\Pro\AAA-PortableApps\WPDISTRIB_PORTABLE\WPP\WPDISTRIB_PORTABLE_6.5\PortableApps\XAMPP\App\XAMPP\htdocs\wpdistrib1/wp-content/updraft/backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db.gz (line 1925, D:\Pro\AAA-PortableApps\WPDISTRIB_PORTABLE\WPP\WPDISTRIB_PORTABLE_6.5\PortableApps\XAMPP\App\XAMPP\htdocs\wpdistrib1\wp-content\plugins\updraftplus\backup.php)
+0095.285 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_options.table.tmpr5096.gz (1/24/fopen): adding to final database dump
+0095.489 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_options.table.gz (2/24/fopen): adding to final database dump
+0095.620 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_users.table.tmpr4.gz (3/24/fopen): adding to final database dump
+0095.675 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_users.table.gz (4/24/fopen): adding to final database dump
+0095.708 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_usermeta.table.tmpr150.gz (5/24/fopen): adding to final database dump
+0095.785 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_usermeta.table.gz (6/24/fopen): adding to final database dump
+0095.818 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_actionscheduler_actions.table.tmpr0.gz (7/24/fopen): adding to final database dump
+0095.862 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_actionscheduler_actions.table.gz (8/24/fopen): adding to final database dump
+0095.906 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/24/fopen): adding to final database dump
+0095.950 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_actionscheduler_claims.table.gz (10/24/fopen): adding to final database dump
+0095.983 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_actionscheduler_groups.table.tmpr2.gz (11/24/fopen): adding to final database dump
+0096.017 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_actionscheduler_groups.table.gz (12/24/fopen): adding to final database dump
+0096.050 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_actionscheduler_logs.table.tmpr0.gz (13/24/fopen): adding to final database dump
+0096.083 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_actionscheduler_logs.table.gz (14/24/fopen): adding to final database dump
+0096.116 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_commentmeta.table.tmpr0.gz (15/24/fopen): adding to final database dump
+0096.149 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_commentmeta.table.gz (16/24/fopen): adding to final database dump
+0096.182 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_comments.table.tmpr2.gz (17/24/fopen): adding to final database dump
+0096.247 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_comments.table.gz (18/24/fopen): adding to final database dump
+0096.280 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_links.table.tmpr0.gz (19/24/fopen): adding to final database dump
+0096.342 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_links.table.gz (20/24/fopen): adding to final database dump
+0096.386 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_postmeta.table.tmpr93.gz (21/24/fopen): adding to final database dump
+0097.144 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_postmeta.table.gz (22/24/fopen): adding to final database dump
+0097.383 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_posts.table.tmpr47.gz (23/24/fopen): adding to final database dump
+0097.488 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_posts.table.gz (24/24/fopen): adding to final database dump
+0097.531 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_term_relationships.table.tmpr100001.gz (25/24/fopen): adding to final database dump
+0097.576 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_term_relationships.table.gz (26/24/fopen): adding to final database dump
+0097.642 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_term_taxonomy.table.tmpr5.gz (27/24/fopen): adding to final database dump
+0097.697 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_term_taxonomy.table.gz (28/24/fopen): adding to final database dump
+0097.741 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_termmeta.table.tmpr0.gz (29/24/fopen): adding to final database dump
+0097.774 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_termmeta.table.gz (30/24/fopen): adding to final database dump
+0097.818 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_terms.table.tmpr5.gz (31/24/fopen): adding to final database dump
+0097.862 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_terms.table.gz (32/24/fopen): adding to final database dump
+0097.895 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_eum_logs.table.tmpr0.gz (33/24/fopen): adding to final database dump
+0097.929 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_eum_logs.table.gz (34/24/fopen): adding to final database dump
+0097.962 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_rank_math_404_logs.table.tmpr0.gz (35/24/fopen): adding to final database dump
+0097.994 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_rank_math_404_logs.table.gz (36/24/fopen): adding to final database dump
+0098.027 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_rank_math_internal_links.table.tmpr11.gz (37/24/fopen): adding to final database dump
+0098.071 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_rank_math_internal_links.table.gz (38/24/fopen): adding to final database dump
+0098.115 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_rank_math_internal_meta.table.tmpr19.gz (39/24/fopen): adding to final database dump
+0098.148 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_rank_math_internal_meta.table.gz (40/24/fopen): adding to final database dump
+0098.181 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_rank_math_redirections.table.tmpr0.gz (41/24/fopen): adding to final database dump
+0098.226 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_rank_math_redirections.table.gz (42/24/fopen): adding to final database dump
+0098.396 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_rank_math_redirections_cache.table.tmpr0.gz (43/24/fopen): adding to final database dump
+0098.589 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_rank_math_redirections_cache.table.gz (44/24/fopen): adding to final database dump
+0098.683 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_tm_taskmeta.table.tmpr0.gz (45/24/fopen): adding to final database dump
+0098.738 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_tm_taskmeta.table.gz (46/24/fopen): adding to final database dump
+0098.782 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_tm_tasks.table.tmpr0.gz (47/24/fopen): adding to final database dump
+0098.825 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db-table-wp_tm_tasks.table.gz (48/24/fopen): adding to final database dump
+0098.888 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db.gz: finished writing out complete database file (71.9 KB)
+0099.105 (0) Total database tables backed up: 24 (backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db.gz, size: 73759, sha1: 26c08c1755af2ffa37308bcc87a82778c19eb61d, sha256: 17960b1391f267c7c115e89301fae19dcc53224743388c3516823542a766dd1e)
+0099.248 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins.zip: plugins: This file has already been successfully uploaded
+0099.281 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-plugins2.zip: plugins: This file has already been successfully uploaded
+0099.314 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-themes.zip: themes: This file has already been successfully uploaded
+0099.358 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-uploads.zip: uploads: This file has already been successfully uploaded
+0099.391 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0099.424 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-others.zip: others: This file has already been successfully uploaded
+0099.457 (0) backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db.gz: db: This file has not yet been successfully uploaded: will queue
+0099.490 (0) Saving backup history. Total backup size: 31.1 MB
+0100.604 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0100.907 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0100.940 (0) No remote despatch: user chose no remote backup service
+0100.972 (0) Recording as successfully uploaded: backup_2024-04-03-1319_WPDistrib_Premier_WordPress_Dis_7bad15f15d61-db.gz
+0101.061 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0101.093 (0) Resume backup (7bad15f15d61, 0): finish run
+0101.215 (0) Decremented the semaphore (fd) by 1
+0101.292 (0) Semaphore (fd) unlocked
+0101.512 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0101.855 (0) No email will/can be sent - the user has not configured an email address.
+0101.892 (0) The backup succeeded and is now complete

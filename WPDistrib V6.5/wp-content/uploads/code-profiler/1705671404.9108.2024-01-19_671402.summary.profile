@@ -1,0 +1,1 @@
+{"time":"0.0270","memory":32.45213317871094,"queries":24,"io":1949,"precision":1,"items":3,"versions":{"wp":"6.4.2","cp":"1.6.6","php":"8.0.30"}}

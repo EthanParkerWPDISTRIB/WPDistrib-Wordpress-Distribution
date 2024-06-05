@@ -1,0 +1,422 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Headers Security Advanced & HSTS WP\n"
+"POT-Creation-Date: 2023-05-18 18:36+0300\n"
+"PO-Revision-Date: 2023-02-06 11:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: headers-security-advanced-hsts-wp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: headers-security-advanced-hsts-wp.php:73
+#: headers-security-advanced-hsts-wp.php:74
+#: headers-security-advanced-hsts-wp.php:392
+#, fuzzy
+msgid "Headers Security Advanced & HSTS WP"
+msgstr "Headers Security Advanced & HSTS WP"
+
+#: headers-security-advanced-hsts-wp.php:90
+#, fuzzy
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您沒有足夠的權限訪問此頁面。"
+
+#. translators: the placeholders here are opening and closing <strong> tags.
+#: headers-security-advanced-hsts-wp.php:95
+#, fuzzy, php-format
+msgid ""
+"%1$sYour website is finally safe! 🚀🚀%2$s Implement enhanced security "
+"headers, HSTS preload for optimum website protection."
+msgstr ""
+"%1$s您的網站終於安全了！🚀🚀 %3$s%2$s實施增強的安全標頭，HSTS預載入以獲得最佳"
+"網站保護。"
+
+#: headers-security-advanced-hsts-wp.php:107
+#, fuzzy
+msgid ""
+"Headers Security Advanced & HSTS WP: The security of your website is our "
+"priority! 🛸"
+msgstr ""
+"Headers Security Advanced & HSTS WP：您網站的安全性是我們的首要任務！🛸 %s"
+
+#. translators: the placeholders here are opening and closing <b> tags.
+#: headers-security-advanced-hsts-wp.php:114
+#, php-format
+msgid ""
+"The %1$sHeaders Security Advanced & HSTS WP%2$s security plugin for "
+"WordPress is an essential and completely free plugin to protect your "
+"WordPress site. %1$sHeaders Security Advanced & HSTS WP%2$s adds security "
+"headers quickly to your site to protect it from threats such as phishing "
+"attacks, data theft and more. %1$sHeaders Security Advanced & HSTS WP%2$s is "
+"easy to use and allows you to customize the HSTS Preload header to suit your "
+"needs. The plugin is compatible with all major browsers and operating "
+"systems and can be installed on any WordPress site."
+msgstr ""
+
+#. translators: the placeholders here are opening and closing <b> tags.
+#: headers-security-advanced-hsts-wp.php:120
+#, fuzzy, php-format
+msgid ""
+"Please consider buying me a coffee to support my work on this %1$sHeaders "
+"Security Advanced & HSTS WP%2$s plugin."
+msgstr ""
+"請考慮給我買一杯咖啡來支援我在這個%1$sHeaders Security Advanced&HSTS WP%2$s外"
+"掛程式上的工作。"
+
+#: headers-security-advanced-hsts-wp.php:125
+#: headers-security-advanced-hsts-wp.php:420
+#, fuzzy
+msgid "Buy me a coffee"
+msgstr "給我買咖啡"
+
+#: headers-security-advanced-hsts-wp.php:126
+#: headers-security-advanced-hsts-wp.php:425
+msgid "Donate via PayPal"
+msgstr ""
+
+#: headers-security-advanced-hsts-wp.php:128
+#, fuzzy
+msgid ""
+"I create projects available to everyone for free and I like to create simple "
+"but functional projects."
+msgstr "我創建免費提供給所有人的專案，我喜歡創建簡單但功能強大的專案。"
+
+#. translators: the placeholders here are opening and closing <strong> tags.
+#: headers-security-advanced-hsts-wp.php:134
+#, fuzzy, php-format
+msgid ""
+"%1$sDo you need help with the Headers Security Advanced & HSTS WP plugin?"
+"%2$s Don't worry, I've got it covered!"
+msgstr ""
+"%1$s您需要有關Headers Security Advanced和HSTS WP外掛程式的説明嗎？%2$s 別擔"
+"心，我已經準備好了！"
+
+#. translators: the placeholders here are opening and closing <strong> tags.
+#: headers-security-advanced-hsts-wp.php:142
+#, fuzzy, php-format
+msgid ""
+"%1$sHelp me decide what the next features of this plugin will be!%2$s Take "
+"part in a nerdy survey!"
+msgstr "%1$s幫助我們決定外掛程式的下一個功能是什麼！%2$s 參加我們的書調查！"
+
+#: headers-security-advanced-hsts-wp.php:149
+#, fuzzy
+msgid "Quick selection:"
+msgstr "快速選擇："
+
+#: headers-security-advanced-hsts-wp.php:151
+msgid "Strict Transport Security (HSTS)"
+msgstr ""
+
+#: headers-security-advanced-hsts-wp.php:160
+msgid "Max-Age: "
+msgstr "最大年齡： "
+
+#: headers-security-advanced-hsts-wp.php:166
+msgid ""
+"The Max-Age parameter specifies the period of time (in seconds) for which "
+"the browser should store the HSTS information. During this time period, the "
+"browser will always use HTTPS to communicate with the website, even if the "
+"visitor has entered \"http\" or an HTTP link in the address bar. This helps "
+"protect the website and its visitors from man-in-the-middle (MITM) attacks "
+"and other security threats."
+msgstr ""
+
+#: headers-security-advanced-hsts-wp.php:180
+msgid ""
+"It is advisable to set \"max-age\" to a high value, such as a full year "
+"(31536000 seconds). This ensures that browsers continue to store security "
+"information for a long period of time, which helps protect users from man-in-"
+"the-middle attacks. However, it is important to keep in mind that setting "
+"the value too high could cause problems if you need to change your site's "
+"SSL configuration in the future. Therefore, it is important to carefully "
+"consider your usage and security needs before setting the value."
+msgstr ""
+
+#: headers-security-advanced-hsts-wp.php:192
+msgid "Include Subdomains: "
+msgstr "包括子域： "
+
+#: headers-security-advanced-hsts-wp.php:198
+#, fuzzy
+msgid ""
+"The \"includeSubDomains\" flag specifies that the effect of the header "
+"should also be applied to subdomains of the domain. When this directive is "
+"present, all requests to any subdomains of your domain are automatically "
+"redirected to the HTTPS protocol, providing enhanced security for the "
+"website and the users who visit it."
+msgstr ""
+"當存在此指令時，對子域的所有請求都會自動重定向到 HTTPS 協定，從而為網站和訪問"
+"它的使用者提供增強的安全性。"
+
+#: headers-security-advanced-hsts-wp.php:212
+#, fuzzy
+msgid ""
+"We recommend enabling the \"includeSubDomains\" option in the HSTS header to "
+"ensure that all subsections of your site (subdomains) are only loaded via "
+"HTTPS. However, before enabling this flag, it is important to ensure that "
+"all subdomains, resources and web services working under your domain are "
+"available via HTTPS and that there are no compatibility issues with any "
+"external services used by your site."
+msgstr ""
+"但是，在啟用這些參數之前，請務必確保網站上的所有子域和資源只能通過 HTTPS 使"
+"用，並且與網站使用的任何外部服務不存在相容性問題。"
+
+#: headers-security-advanced-hsts-wp.php:224
+msgid "Preload: "
+msgstr "預載： "
+
+#: headers-security-advanced-hsts-wp.php:232
+#, fuzzy, php-format
+msgid ""
+"The \"preload\" flag allows the website to be included in the %1$sHSTS "
+"preload list%2$s, which instructs browsers to always use HTTPS connection "
+"for the site and its subdomains, without ever making insecure HTTP requests."
+msgstr ""
+"此外，此參數允許將網站包含在瀏覽器的預載入清單中，這意味著瀏覽器將僅使用網站"
+"的HTTPS連接，而無需驗證。 "
+
+#: headers-security-advanced-hsts-wp.php:251
+#, php-format
+msgid ""
+"Enabling \"preload\" further helps prevent any potential man-in-the-middle "
+"attacks, thus improving connection security as far as it concerns HSTS. "
+"%1$sPlease note%2$s that even if this flag is enabled, your website still "
+"needs to be manually submitted to the list. %1$sPlease also note%2$s that "
+"inclusion in the preload list has %1$spermanent consequences%2$s and %3$sis "
+"not easy to undo%4$s, so you should only enable this flag and submit your "
+"website after making sure that all of the resources and services within your "
+"domain (and its subdomains, if \"includeSubDomains\" is also enabled) are "
+"indeed accessible and functional via HTTPS."
+msgstr ""
+
+#: headers-security-advanced-hsts-wp.php:401
+msgid "Congratulations, you are safe!"
+msgstr ""
+
+#: headers-security-advanced-hsts-wp.php:408
+#, php-format
+msgid ""
+"%1$sThe Headers Security Advanced & HSTS WP%2$s project implements HTTP "
+"response headers that your site can use to increase the security of your "
+"website. The plug-in will automatically set up all Best Practices (you don’t "
+"have to think about anything). You will also be able to change the headers "
+"simply in the plugin settings."
+msgstr ""
+
+#: headers-security-advanced-hsts-wp.php:436
+#, php-format
+msgid "Security is a right, not a privilege. Plugin version %s."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.tentacleplugins.com/"
+msgstr "https://www.tentacleplugins.com/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Headers Security Advanced & HSTS WP - Simple, Light and Fast. The plugin "
+"uses advanced security rules that provide huge levels of protection and it "
+"is important that your site uses it. This step is important to submit your "
+"website and/or domain to an approved HSTS list. Google officially compiles "
+"this list and it is used by Chrome, Firefox, Opera, Safari, IE11 and Edge. "
+"You can forward your site to the official HSTS preload directory. Cross Site "
+"Request Forgery (CSRF) is a common attack with the installation of Headers "
+"Security Advanced & HSTS WP will help you mitigate CSRF on your WordPress "
+"site."
+msgstr ""
+"Headers Security Advanced & HSTS WP - 簡單、輕便、快速。該外掛程式使用高級安"
+"全規則，可提供高水平的保護，您的網站使用它很重要。此步驟對於將您的網站和/或域"
+"提交到批准的HSTS清單非常重要。Google正式編譯了此清單，Chrome，Firefox，"
+"Opera，Safari，IE11和Edge都在使用它。您可以將您的網站轉發到官方 HSTS 預載入目"
+"錄。跨網站請求偽造（CSRF）是一種常見的攻擊，安裝Headers Security Advanced和"
+"HSTS WP將説明您減輕Wordpress網站上的CSRF。"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "🐙 Andrea Ferro, Augusto Bombana"
+msgstr "🐙 安德里亞·費羅，奧古斯托·邦巴納"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://www.linkedin.com/in/andrea-ferro-55046186/"
+msgstr "https://www.linkedin.com/in/andrea-ferro-55046186/"
+
+#, php-format
+#~ msgid ""
+#~ "The %1$sHeaders Security Advanced & HSTS WP%2$s security plugin for "
+#~ "WordPress is an essential and completely free plugin to protect your "
+#~ "WordPress site. "
+#~ msgstr ""
+#~ "WordPress的%1$sHeaders Security Advanced和HSTS WP%2$s安全外掛程式是一個必"
+#~ "不可少且完全免費的外掛程式，可以保護您的WordPress網站。 "
+
+#, php-format
+#~ msgid ""
+#~ "%1$sHeaders Security Advanced & HSTS WP%2$s adds security headers quickly "
+#~ "to your site to protect it from threats such as phishing attacks, data "
+#~ "theft and more. "
+#~ msgstr ""
+#~ "%1$sHeaders Security Advanced & HSTS WP%2$s 可快速將安全標頭添加到您的網"
+#~ "站，以保護其免受網路釣魚攻擊、數據盜竊等威脅。 "
+
+#, php-format
+#~ msgid ""
+#~ "%1$sHeaders Security Advanced & HSTS WP%2$s is easy to use and allows you "
+#~ "to customize the HSTS Preload header to suit your needs. "
+#~ msgstr ""
+#~ "%1$sHeaders Security Advanced & HSTS WP%2$s易於使用，允許您自定義HSTS "
+#~ "Preload header以滿足您的需求。 "
+
+#, fuzzy
+#~ msgid ""
+#~ "The plugin is compatible with all major browsers and operating systems "
+#~ "and can be installed on any WordPress site."
+#~ msgstr ""
+#~ "該外掛程式與所有主流瀏覽器和操作系統相容，可以安裝在任何WordPress網站上。"
+
+#, fuzzy
+#~ msgid "buy me paypal"
+#~ msgstr "買我PayPal"
+
+#, fuzzy
+#~ msgid "HSTS Preload List Submission"
+#~ msgstr "HSTS預載入清單提交"
+
+#~ msgid "Beta"
+#~ msgstr "顏色2"
+
+#~ msgid ""
+#~ "Max-Age is a parameter used in the HTTP Strict-Transport-Security (HSTS) "
+#~ "header to specify the period of time (in seconds) for which the browser "
+#~ "should store the HSTS information. "
+#~ msgstr ""
+#~ "Max-Age 是 HTTP Strict-Transport-Security （HSTS） 標頭中使用的參數，用於"
+#~ "指定瀏覽器應存儲 HSTS 信息的時間段（以秒為單位）。 "
+
+#~ msgid ""
+#~ "During this time period, the browser will always use HTTPS to communicate "
+#~ "with the website, even if the visitor has entered \"http\" or an HTTP "
+#~ "link in the address bar. "
+#~ msgstr ""
+#~ "在此期間，瀏覽器將始終使用HTTPS與網站通信，即使訪問者在位址欄中輸入"
+#~ "了“HTTP”或HTTP連結。 "
+
+#, fuzzy
+#~ msgid ""
+#~ "This helps protect the website and its visitors from man-in-the-middle "
+#~ "(MITM) attacks and other security threats."
+#~ msgstr "這有助於保護網站及其訪問者免受中間人 （MITM） 攻擊和其他安全威脅。"
+
+#~ msgid ""
+#~ "Regarding setting the \"max-age\" value for the HSTS header, it is "
+#~ "advisable to set it to a high value, such as a full year (31536000 "
+#~ "seconds). "
+#~ msgstr ""
+#~ "關於設置 HSTS 標頭的「最大年齡」值，建議將其設置為較高的值，例如全年"
+#~ "（31536000 秒）。 "
+
+#~ msgid ""
+#~ "This ensures that browsers continue to store security information for a "
+#~ "long period of time, which helps protect users from man-in-the-middle "
+#~ "attacks. "
+#~ msgstr ""
+#~ "這可確保瀏覽器長時間持續存儲安全資訊，這有助於保護使用者免受中間人攻擊。 "
+
+#~ msgid ""
+#~ "However, it is important to keep in mind that setting the value too high "
+#~ "could cause problems if you need to change your site's SSL configuration "
+#~ "in the future. "
+#~ msgstr ""
+#~ "但是，請務必記住，如果您將來需要更改網站的 SSL 配置，將值設置得太高可能會"
+#~ "導致問題。 "
+
+#, fuzzy
+#~ msgid ""
+#~ "Therefore, it is important to carefully consider your usage and security "
+#~ "needs before setting the value."
+#~ msgstr "因此，在設置值之前，請務必仔細考慮您的使用方式和安全需求。"
+
+#~ msgid ""
+#~ "IncludeSubDomains is an HTTP Strict Transport Security (HSTS) directive "
+#~ "that specifies whether the header should also be applied to subdomains of "
+#~ "the domain. "
+#~ msgstr ""
+#~ "IncludeSubDomains 是一個 HTTP 嚴格傳輸安全 （HSTS） 指令，它指定標頭是否也"
+#~ "應應用於域的子域。 "
+
+#~ msgid ""
+#~ "As a professional tip, we recommend enabling the \"includeSubDomains\" "
+#~ "option in the HSTS header to ensure that all subdomains on the website "
+#~ "use HTTPS. "
+#~ msgstr ""
+#~ "作為專業提示，我們建議在HSTS標頭中啟用「includeSubDomain」選項，以確保網站"
+#~ "上的所有子域都使用HTTPS。 "
+
+#~ msgid ""
+#~ "This increases connection security for users and reduces the possibility "
+#~ "of man-in-the-middle attacks. "
+#~ msgstr "這提高了使用者的連接安全性，並降低了中間人攻擊的可能性。 "
+
+#~ msgid ""
+#~ "However, you should be aware that this option may cause problems for some "
+#~ "external subdomains that do not support HTTPS. "
+#~ msgstr ""
+#~ "但是，您應該知道，此選項可能會導致某些不支援 HTTPS 的外部子域出現問題。 "
+
+#, fuzzy
+#~ msgid ""
+#~ "In this case, you may consider disabling the option for such specific "
+#~ "subdomains."
+#~ msgstr "在這種情況下，您可以考慮禁用此類特定子域的選項。"
+
+#~ msgid ""
+#~ "The \"preload\" parameter is used to indicate to the browser that the "
+#~ "website should only be loaded via HTTPS. "
+#~ msgstr "“preload”參數用於向瀏覽器指示網站只能通過HTTPS載入。 "
+
+#~ msgid ""
+#~ "This means that even if a user types \"http://\" in front of the website "
+#~ "URL, he or she will automatically be redirected to \"https://\" to ensure "
+#~ "the security of the connection. "
+#~ msgstr ""
+#~ "這意味著，即使使用者在網站URL前面鍵入“http://”，他或她也會被自動重定向"
+#~ "到“https://”，以確保連接的安全性。 "
+
+#, fuzzy
+#~ msgid ""
+#~ "This makes the site load faster for users and improves the security of "
+#~ "the connection."
+#~ msgstr "這使用戶的網站載入速度更快，並提高連接的安全性。"
+
+#~ msgid ""
+#~ "Professional advice would be to turn on the \"preload\" parameter to "
+#~ "ensure greater security and speed of site loading for users. "
+#~ msgstr ""
+#~ "專業建議是打開「預載入」參數，以確保為使用者提供更高的安全性和網站載入速"
+#~ "度。 "
+
+#~ msgid ""
+#~ "Including the subdomain in the HSTS configuration is also a good practice "
+#~ "to ensure that all subsections of your site are only loaded via HTTPS. "
+#~ msgstr ""
+#~ "在 HSTS 配置中包含子域也是一種很好的做法，可確保網站的所有子部分僅通過 "
+#~ "HTTPS 載入。 "
+
+#, fuzzy
+#~ msgid "Don't try to be smart with us, only real ninjas can enter here!"
+#~ msgstr "不要試圖對我們聰明，只有真正的忍者才能進入這裡！"
