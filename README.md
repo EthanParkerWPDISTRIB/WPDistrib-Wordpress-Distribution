@@ -1,2 +1,4 @@
 # WPDistrib
- The ultimate Wordpess Distribution for Free
+ The ultimate Wordpress Distribution for Free
+
+ wpdistrib.com
