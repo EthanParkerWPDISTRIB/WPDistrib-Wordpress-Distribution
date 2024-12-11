@@ -1,50 +1,48 @@
 # WPDistrib
- The ultimate Wordpress Distribution for Free
  https:// wpdistrib.com
 
-WPDistrib combines WordPress with 25 selected freemium plugins to enhance performance, security, and SEO. Open-source and free like WordPress, WPDistrib is perfect for beginners, saving time by including the best plugins, so no need to search, test, or install plugins.
+WPDistrib is a free, open-source WordPress pack designed to simplify and optimize website creation. It transforms a clean WordPress installation into a high-performance, secure, and SEO-ready site by preconfiguring essential plugins and settings.
+Features
 
+    Speed & Performance: Optimized for ultra-fast, mobile-first websites.
+    SEO-Ready: Preconfigured tools to improve search engine visibility.
+    Enhanced Security: Advanced configurations to keep your site safe.
+    One-Click Templates: Professional designs ready to use instantly.
+    Multilingual Support: Available in English and French, with full translation options.
+    100% Free & Open Source: Licensed under GPL, with no hidden fees.
 
+Ideal For
 
+    Blogs
+    Portfolios
+    Business Websites
+    E-commerce
 
+Installation
 
-**What is WPDistrib?**
-WPDistrib is a specially curated version of WordPress designed to make setting up and managing your website easier. It includes pre-selected plugins, themes, and configurations—known as blueprints—that streamline the process of creating a functional and efficient WordPress site.
+    Download the latest version of WPDistrib from the official site.
+    Install WPDistrib on a fresh WordPress installation.
+    Follow the step-by-step guide included to start building your site.
 
-**Why Choose WPDistrib?**
-Setting up a WordPress site can be overwhelming, with countless plugins and settings to navigate. WPDistrib simplifies this by providing everything you need in one package. Inspired by the Linux community's approach to software distributions, WPDistrib offers a tailored environment that meets diverse user needs.
+Requirements
 
-**What’s Included in WPDistrib?**
-WPDistrib combines the original WordPress software with essential free plugins that add important features not available in standard WordPress. Here’s what you get:
+    WordPress 6.7.1 or later
+    PHP 7.4 or higher
+    MySQL 5.7 or higher
 
-➡️ **Original WordPress software**: Regularly updated by WordPress.org.
+License
 
-➡️ **Free extensions**: Carefully chosen for their ability to enhance WordPress with new features.
+This project is licensed under the GNU General Public License v2.0 (GPL-2.0).
+Languages Supported
 
-➡️ **No code injection** 💉 Ensuring a clean and safe setup.
+    English
+    French
 
-➡️ **Clean database** 🗃️ For optimal performance.
+Contributing
 
-➡️ **GPLv2 license** 📜 Keeping everything open-source and free to modify.
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+Download
 
-➡️ **25 approved plugins** ✅ Pre-configured for immediate use.
+Get WPDistrib for free today and transform your WordPress setup!
 
-➡️ **4 additional plugins** ⚙️ Easy to set up with our guide.
-
-➡️ **Enhanced admin interface** 🎛️ Making site management easier.
-
-➡️ **Integrated performance metrics** 📊 To monitor your site’s performance.
-
-➡️ **Expanded page customization options** 🎨 Utilizing Gutenberg.
-
-➡️ **Strong protection against vulnerabilities** 🛡️ Ensuring your site’s security.
-
-➡️ **Easy updates, backups, and restores** 🔄 Simplifying site maintenance.
-
-➡️ **Advanced SEO tools** 🔍 Helping your site rank higher on search engines.
-
-**Benefits of Using WPDistrib**
-WPDistrib saves you time and effort by eliminating the need to manually search for and configure plugins. It’s especially beneficial for businesses, as it consolidates support to one vendor, enhancing operational efficiency.
-
-**Commitment to Open-Source**
-WPDistrib adheres to the open-source philosophy of WordPress.org, offering a free and modifiable distribution. This ensures a continuous cycle of improvement and adaptation, making WordPress a more powerful tool for everyone.
+👉 Download WPDistrib
