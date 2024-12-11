@@ -1,3 +1,0 @@
-<?php
-const AME_HAS_CUSTOMIZABLES = true;
-const AME_CUSTOMIZABLE_BASE_FILE = __FILE__;
